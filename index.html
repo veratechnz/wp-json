@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<title>WP-JSON</title>
+	</head>
+<body>
+
+	<div class="conatiner-fluid">
+		<div class="row center-block">
+			<div class="col-md-12">
+				<h1>WP Blog Feed</h1>
+					<p id="postList"></p>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="custom.js"></script>
+	<script src="http://veratech.co.nz/blog/?json=1&count=10&callback=listPosts"></script>
+</body>
+</html>
